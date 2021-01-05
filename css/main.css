@@ -140,7 +140,8 @@ section{
 
 .hero{
     height: 400px;
-    background:cover url('../img/hero.jpg');
+    background-size: cover;
+    background:url('../img/hero.jpg');
     text-transform: uppercase;
     background-position: center;
 }
@@ -151,12 +152,12 @@ section{
 .hero div h2{
     color: #faa541;
 }
-.hero div h1,h2{
+.hero div h1, .hero div h2{
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
 }
-.hero div p{
+.hero p{
     letter-spacing: 2px;
     font: 21px 700;
     margin: 0 0 10px 0;
@@ -179,7 +180,7 @@ section{
     line-height: 1;
     text-align: center;
 }
-.banner-text>div:last-child{
+.banner-text div:last-child{
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -199,7 +200,7 @@ section{
     text-transform: uppercase;
     text-align: center;
 }
-.category-text>div{
+.category-text div{
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
