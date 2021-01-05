@@ -138,12 +138,12 @@ section{
 
 
 
-.hero{
+.hero {
     height: 400px;
     background-size: cover;
     background:url('../img/hero.jpg');
     text-transform: uppercase;
-    background-position: center;
+    background-position: center center;
 }
 .hero div h1{
     position: relative;
