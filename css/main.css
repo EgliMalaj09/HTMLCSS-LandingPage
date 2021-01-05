@@ -231,6 +231,7 @@ section{
     right: 50px;
     z-index: 1;
 }
+
 .full-banner-image{
     flex: 0 0 58.333333%;
     background: url(../img/vista.jpg);
@@ -238,10 +239,12 @@ section{
     background-position: top center;
     min-height: 400px;
 }
+
 .full-banner-sidebar{
-    float: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
     background-color: #364147;
-    padding: 30p;
+    padding: 30px;
+    text-transform: uppercase;
     color: #ffffff;
 }
 .full-banner-sidebar h4::after{
